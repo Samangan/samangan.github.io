@@ -9,13 +9,15 @@ categories: terraform aws devops
 
 At first we tried to separate stage and prod envs by having a structure like so:
 ```
-├── service.tf
-├── prod
-│   └── terraform.tfvars
-│   └── .terraform
-└── stage
-    └── terraform.tfvars
-    └── .terraform
+
+   ├── service.tf
+   ├── prod
+   │   └── terraform.tfvars
+   │   └── .terraform
+   └── stage
+       └── terraform.tfvars
+       └── .terraform
+
 ```
 
 This allowed us to share the same terraform file for both staging and production, and besides a minor annoyance with having to manually specify the variable file path when using terraform, or pushing to a stage or prod Atlas environment, it worked smoothly. Notice that we kept separate state files per environment which is a really good thing to do.
@@ -25,14 +27,16 @@ Once we started doing this, we quickly began to realize that each service's tf f
 
 Since modules brought down the cost and complexity of maintaining separate tf files for different environments, the infra for our services started to look like this:
 ```
-├── prod
-│   ├── service.tf
-│   └── terraform.tfvars
-│   └── .terraform
-└── stage
-    ├── service.tf
-    └── terraform.tfvars
-    └── .terraform
+
+   ├── prod
+   │   ├── service.tf
+   │   └── terraform.tfvars
+   │   └── .terraform
+   └── stage
+       ├── service.tf
+       └── terraform.tfvars
+       └── .terraform
+
 ```
 This is similar to Hashicorp's own [best practices](https://github.com/hashicorp/best-practices/tree/master/terraform/providers/aws). I also recommend a `global` Terraform file for managing things shared between all environments (Which depends on your usage but could be: Route53 Zones/Records, VPC subnets, etc).
 
