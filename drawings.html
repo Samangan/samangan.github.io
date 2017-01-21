@@ -1,0 +1,50 @@
+---
+layout: page
+title: Drawings
+permalink: /drawings/
+images:
+  - image_path: /images/drawings/teenagers.png
+    title: Teenagers
+  - image_path: /images/drawings/mask.png
+    title: Mask
+  - image_path: /images/drawings/teenager.png
+    title: Teenager
+  - image_path: /images/drawings/pods_1.png
+    title: Pods 1
+  - image_path: /images/drawings/mountain.png
+    title: Mountain
+  - image_path: /images/drawings/pods_2.png
+    title: Pods 2
+  - image_path: /images/drawings/artificial_world.png
+    title: Artificial World
+  - image_path: /images/drawings/evolution.png
+    title: Evolution
+  - image_path: /images/drawings/pods_3.png
+    title: Pods 3
+---
+
+<style>
+  .photo-gallery, .photo-gallery li {
+    list-style: none;
+    padding: 0;
+  }
+
+  .photo-gallery li {
+    display: inline-block;
+    width: 75%;
+  }
+
+  .photo-gallery li img {
+    width: 100%;
+  }
+</style>
+
+<p>
+  I make stuff sometimes.
+
+</p>
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>

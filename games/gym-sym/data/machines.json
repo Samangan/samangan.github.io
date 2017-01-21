@@ -1,0 +1,73 @@
+{
+    "benchpress": {
+        "name": "benchpress",
+        "cost": 500,
+        "workoutLength": 500,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 1
+    },
+
+    "squatrack": {
+        "name": "squatrack",
+        "cost": 500,
+        "workoutLength": 500,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 1
+    },
+
+    "chestpress": {
+        "name": "chestpress",
+        "cost": 500,
+        "workoutLength": 500,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 3
+    },
+
+    "legpress": {
+        "name": "legpress",
+        "cost": 500,
+        "workoutLength": 500,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 3
+    },
+
+    "freeweights" : {
+        "name": "freeweights",
+        "cost": 10000,
+        "workoutLength": 1000,
+        "maxConcurrentCustomers": 20,
+        "maintFactor": 1
+    },
+
+    "treadmill": {
+        "name": "treadmill",
+        "cost": 1000,
+        "workoutLength": 1000,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 3
+    },
+
+    "stairclimber": {
+        "name": "stairclimber",
+        "cost": 1000,
+        "workoutLength": 2000,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 3
+    },
+
+    "cycle": {
+        "name": "cycle",
+        "cost": 1000,
+        "workoutLength": 200,
+        "maxConcurrentCustomers": 1,
+        "maintFactor": 3
+    },
+
+    "shower": {
+        "name": "shower",
+        "cost": 10000,
+        "workoutLength": 1000,
+        "maxConcurrentCustomers": 9999999,
+        "maintFactor": 10
+    }
+}

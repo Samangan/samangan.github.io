@@ -1,0 +1,45 @@
+{
+    "weekend_warrior" : {
+        "routine": [
+            "freeweights",
+            "benchpress",
+            "treadmill",
+            "cycle"
+        ],
+        "days_of_week": [0, 6]
+    },
+    "body_builder_barbell": {
+        "routine": [
+            "stairclimber",
+            "benchpress",
+            "squatrack",
+            "legpress"
+        ],
+        "days_of_week": [1, 3, 5]
+    },
+    "how_much_can_you_bench_bro": {
+        "routine": [
+            "benchpress",
+            "stairclimber",
+            "benchpress"
+        ],
+        "days_of_week": [2, 4, 6]
+    },
+    "cardio_fiend": {
+        "routine": [
+            "stairclimber",
+            "treadmill",
+            "cycle"
+        ],
+        "days_of_week": [0, 2, 4, 6]
+    },
+    "body_builder_machine": {
+        "routine": [
+            "treadmill",
+            "chestpress",
+            "legpress",
+            "stairclimber"
+        ],
+        "days_of_week": [2, 4, 6]
+    }
+}
