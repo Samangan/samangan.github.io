@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tips Using Terraform in Production"
+title:  "Tips For Using Terraform in Production"
 date:   2017-01-16 16:17:31 -0800
 categories: terraform aws devops
 ---
@@ -37,7 +37,7 @@ Since modules brought down the cost and complexity of maintaining separate tf fi
    └── .terraform
 ~~~
 
-Before we avoided this structure, because we didn't want to have to copy and paste terraform changes between 2 different tf files. But now we just make the changes in the terraform module that both env's tf file use.
+Before, we avoided this structure, because we didn't want to have to copy and paste terraform changes between 2 different tf files. But now we just make the changes in the terraform module that both env's tf file use.
 
 This is similar to Hashicorp's own [best practices](https://github.com/hashicorp/best-practices/tree/master/terraform/providers/aws). I also recommend a `global` Terraform file for managing things shared between all environments (Which depends on your usage but could be: Route53 Zones/Records, VPC subnets, etc).
 
