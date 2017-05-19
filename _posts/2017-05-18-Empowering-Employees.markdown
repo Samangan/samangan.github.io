@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Empowering Employees"
+title:  "Feynman on Empowering Employees"
 date:   2017-05-18 04:17:31 -0800
 categories:
 ---
