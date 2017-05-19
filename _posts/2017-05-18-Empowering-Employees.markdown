@@ -7,7 +7,7 @@ categories:
 
 ![Feynman Los alamos badge](/images/Richard_Feynman_Los_Alamos_ID_badge.jpg)
 
-I recently listened to [this](https://www.youtube.com/watch?v=uY-u1qyRM5w) great lecture Richard Feynman gave to USCB in 1975.
+I recently listened to [this](https://www.youtube.com/watch?v=uY-u1qyRM5w) great lecture Richard Feynman gave to UCSB in 1975.
 
 Near the end of the talk, Feynman goes on a small tangent about a failing software project at Los Alamos and how he turned the failing team around with a very simple strategy.
 
