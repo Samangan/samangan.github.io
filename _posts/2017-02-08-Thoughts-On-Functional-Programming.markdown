@@ -4,6 +4,7 @@ title:  "Functional Programming and Complexity"
 date:   2017-02-08 06:12:43 -0800
 categories:
 ---
+![Kowloon City](/images/Kowloon-Cross-section.png)
 
 My ultimate goal in programming is simplicity. I try to take an Occam's Razor style approach to solving any technical problem. From the outside looking in, functional programming appears to be taking the opposite approach. Higher order functions? Stateless functions? Higher kinded types? (I won't even dare to use any 'M' or 'F' words here). Point is, from the outside, it doesn't look very simple at all. Putting aside all of the commonly touted benefits of FP, why would we want to program functionally if we primarily aim for the simplest solution to any problem?
 
